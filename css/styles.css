@@ -1,0 +1,146 @@
+.header {
+  height: 50vh;
+  background-image: url("../images/dev1.jpeg");
+  background-size: cover;
+}
+
+body {
+  background: #ebebeb;
+}
+
+.negrita {
+  font-weight: bold;
+}
+
+h1 h2 p {
+  font-family: "Roboto", sans-serif;
+}
+/*.tomato {
+  background: tomato;
+}*/
+h2 {
+  font-weight: bold;
+}
+.rebecca {
+  background: rebeccapurple;
+}
+
+.icon {
+  font-size: 70px;
+}
+
+.footer {
+  background: ghostwhite;
+  height: 250px;
+}
+.icono {
+  font-size: 68px;
+}
+
+.icono:hover {
+  transform: scale(1.5) rotate(360deg);
+
+  transition-duration: 400ms;
+}
+
+.ico {
+  font-size: 68px;
+}
+
+.ico:hover {
+  transform: scale(1.5) rotate(-29deg);
+  transition-duration: 400ms;
+  -webkit-transform: scale(1.5) rotate(-29deg);
+  -moz-transform: scale(1.5) rotate(-29deg);
+  -ms-transform: scale(1.5) rotate(-29deg);
+  -o-transform: scale(1.5) rotate(-29deg);
+}
+
+textarea {
+  resize: none;
+}
+
+.subrayar {
+  text-decoration: underline;
+}
+
+/*.shadow {
+  /*
+    box-shadow: sombra H sombra V desenfoque color;
+  
+  */
+/*box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.9);
+  -moz-box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.9); /*  MOZILLA*/
+/*-o-box-shwdow: 6px 6px 10px rgba(0, 0, 0, 0.9); /*  OPERA*/
+/*-ms-box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.9); /*  EXPLORER*/
+/*-webkit-box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.9); /*  CHROME*/
+/*}*/
+
+.github {
+  color: black;
+}
+
+.linkedin {
+  color: #0077b5;
+}
+
+.whatsapp {
+  color: #00bb2d;
+}
+
+.desplazar {
+  padding-left: 80px;
+  padding-top: 60px;
+}
+.desp {
+  padding-left: 90px;
+}
+
+#skills,
+.skills {
+  background: #ffffff;
+  border-radius: 5px;
+  /*box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);*/
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.9);
+  -moz-box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.9); /*  MOZILLA*/
+  -o-box-shwdow: 6px 6px 10px rgba(0, 0, 0, 0.9); /*  OPERA*/
+  -ms-box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.9); /*  EXPLORER*/
+  -webkit-box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.9); /*  CHROME*/
+}
+
+.iconos-skills {
+  transition-duration: 700ms;
+}
+
+.iconos-skills:hover {
+  transition-duration: 700ms;
+  -moz-transition-duration: 700ms;
+  -o-transition-duration: 700ms;
+  -webkit-transition-duration: 700ms;
+  transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+}
+
+.img-page {
+  transition-duration: 600ms;
+}
+
+.img-page:hover {
+  transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transition-duration: 600ms;
+  -moz-transition-duration: 600ms;
+  -o-transition-duration: 600ms;
+  -webkit-transition-duration: 600ms;
+  transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+}
